@@ -15,7 +15,7 @@ timezone: Jakarta/Indonesia
 paginateLabel: page
 paginate_path: "page/:num"
 permalink: /:title
-baseurl: https://tamanbungatranslation.github.io
+baseurl: https://manga.tamanbungatranslation.my.id
 
 # Includes
 addthisId: ""

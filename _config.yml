@@ -1,21 +1,21 @@
 # Website details
-name: TamanBunga: Manga
+name: TamanBunga Translation - Manga
 description: Tempat Baca Manga Garapan TamanBunga
 email: email@site.com
 author: author
-lang: en
-locale: en_US
+lang: id
+locale: id_ID
 
 # Jekyll
 paginate: 10
 highlighter: rouge
 markdown: kramdown
 plugins: [jekyll-paginate]
-timezone: America/New_York
+timezone: Jakarta/Indonesia
 paginateLabel: page
 paginate_path: "page/:num"
-permalink: /:categories/:year/:month/:day/:title
-baseurl: https://ozgrozer.github.io/dasper
+permalink: /:title
+baseurl: https://tamanbungatranslation.github.io
 
 # Includes
 addthisId: ""

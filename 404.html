@@ -1,3 +1,24 @@
-<body style="background-color:#101010">
-<div style="color:white">Halaman tak ditemukan.</div>
-</body>
+---
+layout: default
+---
+
+ <script>
+  function redirect() {
+   window.location.replace("https://www.tamanbungatranslation.my.id/");
+  }
+
+  function countdown() {
+   var seconds = 5; // waktu dalam detik
+   var timer = setInterval(function() {
+    seconds--;
+    document.getElementById("countdown").innerHTML = seconds;
+    if (seconds <= 0) {
+     clearInterval(timer);
+     redirect();
+    }
+   }, 1000);
+  }
+ </script>
+
+<h2>Halaman tidak ditemukan.</h2>
+<p>Kamu akan dialihkan ke halaman utama dalam <span id="countdown">5</span>.</p>

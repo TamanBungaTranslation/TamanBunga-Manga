@@ -3,8 +3,8 @@ name: TamanBunga: Manga Reader
 description: Tempat Baca Manga Garapan TamanBunga
 email: email@site.com
 author: author
-lang: id
-locale: id_ID
+lang: en
+locale: en_US
 
 # Jekyll
 paginate: 10

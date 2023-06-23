@@ -69,40 +69,6 @@ layout: htmlCompressor
 </head>
 <body>
 
-  <!-- Header -->
-  <header>
-
-    <!-- Header container -->
-    <section>
-
-      <!-- Homepage -->
-      <a href="{{ site.baseurl }}"><i class="icon-home"></i></a>
-
-      <!-- Site name & description -->
-      <div>
-
-        <!-- Display: table -->
-        <div class="dt">
-
-          <!-- Display: table-cell -->
-          <div class="dtc">
-
-            <h3>{{ site.name }}</h3>
-            <h6>{{ site.description }}</h6>
-
-          </div><!-- .dtc -->
-
-        </div><!-- .dt -->
-
-      </div><!-- div -->
-
-      <!-- Mail -->
-      <a href="mailto:{{ site.email }}"><i class="icon-envelope-o"></i></a>
-
-    </section><!-- section -->
-
-  </header><!-- header -->
-
   <!-- Main -->
   <main>
 
@@ -115,35 +81,6 @@ layout: htmlCompressor
     </section><!-- section -->
 
   </main><!-- main -->
-
-  <!-- Footer -->
-  <footer>
-
-    <!-- Footer container -->
-    <section>
-
-      <!-- Display: table -->
-      <div class="dt">
-
-        <!-- Display: table-cell -->
-        <div class="dtc h6">
-
-          <!-- Copyright -->
-          <a href="{{ site.baseurl }}" class="h6">{{ site.name }}</a> &copy; {{ site.time | date: "%Y" }} &bull; {% if site.lang == "tr" %}Tüm hakları saklıdır{% else %}All rights reserved{% endif %}.
-          <br>
-          {% if site.lang == "tr" %}
-            <a href="https://github.com/jekyll/jekyll" class="h6" target="_blank">Jekyll</a> ile <a href="https://github.com/ozgrozer/dasper" class="h6" target="_blank">Dasper</a> teması kullanılarak oluşturulmuştur.
-          {% else %}
-            Proudly published with <a href="https://github.com/jekyll/jekyll" class="h6" target="_blank">Jekyll</a> using <a href="https://github.com/ozgrozer/dasper" class="h6" target="_blank">Dasper</a> theme.
-          {% endif %}
-
-        </div><!-- .dtc -->
-
-      </div><!-- .dt -->
-
-    </section><!-- section -->
-
-  </footer><!-- footer -->
 
   <!-- If googleAnalyticsId declared -->
   {% if site.googleAnalyticsId != "" %}

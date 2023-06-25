@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Shimotsuki-san Likes the Mob ~This Shy Girl is Only Sweet Towards Me~ - Chapter 04 Bahasa Indonesia
-date: 2023-06-09
+date: 0001-01-01
 ---
 
 ![](https://cdn.lewd.host/hdccSxaf.png)

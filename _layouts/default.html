@@ -7,7 +7,7 @@ layout: htmlCompressor
 <head>
 
   <!-- SEO -->
-  <title>{% if page.title %}{{ site.name }}: {{ page.title }}{% elsif site.name %}{{ site.name }}{% endif %}</title>
+  <title>{% if page.title %}{{ page.title }} - {{ site.name }}{% elsif site.name %}{{ site.name }}{% endif %}</title>
   <meta name="description" content="{% if page.title %}{{ page.content | strip_html | slice: 0, 150 }}{% elsif site.description %}{{ site.description }}{% endif %}">
 
   <!-- Meta for robots -->
@@ -19,19 +19,19 @@ layout: htmlCompressor
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- Google+ -->
-  <meta itemprop="name" content="{% if page.title %}{{ site.name }}: {{ page.title }}{% elsif site.name %}{{ site.name }}{% endif %}">
+  <meta itemprop="name" content="{% if page.title %}{{ page.title }} - {{ site.name }}{% elsif site.name %}{{ site.name }}{% endif %}">
   <meta itemprop="description" content="{% if page.title %}{{ page.content | strip_html | slice: 0, 150 }}{% elsif site.description %}{{ site.description }}{% endif %}">
 
   <!-- Open Graph(Facebook, Pinterest) -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="{{ site.baseurl }}{{ page.url }}">
-  <meta property="og:title" content="{% if page.title %}{{ site.name }}: {{ page.title }} {% elsif site.name %}{{ site.name }}{% endif %}">
+  <meta property="og:title" content="{% if page.title %}{{ page.title }} - {{ site.name }} {% elsif site.name %}{{ site.name }}{% endif %}">
   <meta property="og:locale" content="{{ site.locale }}">
   <meta property="og:site_name" content="{{ site.name }}">
   <meta property="og:description" content="{% if page.title %}{{ page.content | strip_html | slice: 0, 150 }}{% elsif site.description %}{{ site.description }}{% endif %}">
 
   <!-- Twitter -->
-  <meta name="twitter:title" content="{% if page.title %}{{ site.name }}: {{ page.title }}{% elsif site.name %}{{ site.name }}{% endif %}">
+  <meta name="twitter:title" content="{% if page.title %}{{ page.title }} - {{ site.name }}{% elsif site.name %}{{ site.name }}{% endif %}">
   <meta name="twitter:site" content="{{ site.name }}">
   <meta name="twitter:url" content="{{ site.baseurl }}{{ page.url }}">
   <meta name="twitter:creator" content="{{ site.author }}">

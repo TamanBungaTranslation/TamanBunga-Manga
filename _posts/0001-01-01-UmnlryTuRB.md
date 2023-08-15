@@ -1,6 +1,5 @@
 ---
 layout: article
-title: Shimotsuki-san Likes the Mob ~This Shy Girl is Only Sweet Towards Me~ - Chapter 06.5 Bahasa Indonesia
 date: 0001-01-01
 ---
 

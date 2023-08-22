@@ -17,6 +17,11 @@ paginate_path: "page/:num"
 permalink: /:title
 baseurl: https://manga.tabun.my.id/
 
+collections:
+  reader:
+    output: true
+    permalink: /:title
+
 # Includes
 addthisId: ""
 disqusUsername: ""

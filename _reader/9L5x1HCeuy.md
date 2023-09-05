@@ -14,4 +14,3 @@ date: 0001-01-01
 ![](https://cdn.lewd.host/xmOYLrUs.jpg)
 ![](https://cdn.lewd.host/49QWBD5o.jpg)
 ![](https://cdn.lewd.host/GTiqAtZN.jpg)
-![](https://cdn.lewd.host/vdsScpzi.png)

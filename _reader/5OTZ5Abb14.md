@@ -30,4 +30,3 @@ date: 0001-01-01
 ![](https://cdn.lewd.host/FwsU1huz.jpg)
 ![](https://cdn.lewd.host/bLe33DAs.jpg)
 ![](https://cdn.lewd.host/N02X9DNn.jpg)
-![](https://cdn.lewd.host/JdhugQ39.png)
